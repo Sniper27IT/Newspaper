@@ -1,10 +1,20 @@
+html{
+    margin: 15px;
+}
+header{
+    margin: 15px;
+}
+footer{
+    margin: 15px;
+}
+
 #JumboHeader{
     margin:10px;
     color: white;
     background-color: #2e4bff;
 }
 #HeaderNavbar{
-    border-style: solid;
+
 }
 #HeaderNavbarLower{
     margin:auto;
@@ -75,6 +85,11 @@ border-style:solid;
 }
 #FourColumnRow2 .col-lg-3{
     border-style:solid;
+}
+#JumboMidPage{
+    margin:10px;
+    color: white;
+    background-color: #2e4bff;
 }
 
 #AllSectionButtons .dropdown {
@@ -177,6 +192,21 @@ border-style:solid;
     padding:1px;
 
 }
+#lifestyle a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+#lifestyle a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+#lifestyle img {
+    width: 250px;
+    height: 150px;
+    padding:1px;
+
+}
 @media (max-width: 1200px) {
 
     .flex-container {
@@ -184,6 +214,15 @@ border-style:solid;
     }
 }
 
+#releases a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#releases a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
 #BusinessMoney a{
     font-size: 20px;
     text-decoration: none;
@@ -213,10 +252,47 @@ border-style:solid;
 
 }
 
+#arts{
+    font-size: medium;
+}
+#arts a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+#arts a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+#arts img{
+    width: 250px;
+    height: 150px;
+    padding:5px;
+
+}
+
 #footerNavbar{
-    border: 1px solid black;
+    border-top: 2px solid black;
     margin-top: 10px;}
 
+div.scrollmenu2 {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu2 a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+
+div.scrollmenu2 a:hover {
+    opacity: 0.7;
+}
 
 .fa:hover {
     opacity: 0.7;}
@@ -304,9 +380,13 @@ border-style:solid;
     border: none;
     background-color: white;
     cursor: pointer;
+    margin-left: 30px;
 
 }
-
+#footerNavbar p{
+    font-size: 25px;
+    margin-left: 200px;
+}
 #footerNavbarLower{
 background-color: #27316e;
     margin-bottom: 15px;
